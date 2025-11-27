@@ -3,8 +3,10 @@
 
 \subsection{教學問題脈絡}
 
-隨著人工智慧技術的普及,程式設計能力已成為21世紀公民的基本素養\cite{wing2006computational}。
-本校通識教育中心開設之「程式設計與應用」課程,旨在培養非資訊科系學生的運算思維與程式設計能力。
+隨著人工智慧技術的普及,程式設計能力已成為21世紀公民的基本素養,
+運算思維(Computational Thinking)更被視為跨領域問題解決的核心能力\cite{wing2006computational}。
+本校通識教育中心開設之「程式設計與應用」課程,以Python為教學語言\cite{cs50p2024},
+旨在培養非資訊科系學生的運算思維與程式設計能力。
 然而,教學實踐中面臨三大核心挑戰:
 
 \textbf{挑戰一:學習困難與高挫折率}
@@ -15,15 +17,19 @@
 
 \textbf{挑戰二:生成式AI帶來的認知卸載危機}
 
-ChatGPT等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,becker2023programming},
-但學生過度依賴AI可能導致「認知卸載」(cognitive offloading),即將思考過程外包給AI,
+ChatGPT、GitHub Copilot等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,denny2023conversing},
+為程式設計教育帶來前所未有的機會與挑戰\cite{becker2023programming}。
+然而,學生過度依賴AI可能導致「認知卸載」(cognitive offloading),即將思考過程外包給AI,
 而未真正理解程式邏輯\cite{kazemitabaar2023studying}。
-研究顯示,當學生直接複製AI生成的程式碼而不加修改時,92\%會接受錯誤答案\cite{prather2024weird}。
+研究顯示,當學生直接複製AI生成的程式碼而不加修改時,92\%會接受錯誤答案\cite{prather2024weird},
+且在後續獨立解題時表現顯著下降\cite{finnieansley2023exam}。
 
 \textbf{挑戰三:傳統教學方法的侷限}
 
 傳統的「講述-練習」教學模式難以有效支持學生建立自主學習能力。
 教師難以即時診斷每位學生的學習困難,也無法提供個別化的學習支持\cite{hmelo2004problem}。
+此外,國內針對非資訊科系學生的程式設計教學研究也指出,
+單向講授模式不利於培養學生的運算思維與問題解決能力\cite{lin2021teaching,lai2020analysis}。
 
 \subsection{傳統教學方法說明}
 
@@ -46,10 +52,16 @@ ChatGPT等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley20
 
 \subsection{改進方向與預期效益}
 
-本研究提出「AI鷹架漸退式教學模式」,
+有鑑於此,本研究提出「AI鷹架漸退式教學模式」(AI Scaffolding Fading Model),
 結合自我調節學習理論(Self-Regulated Learning, SRL)\cite{zimmerman2002becoming,azevedo2019using}
-與問題導向學習(Problem-Based Learning, PBL)\cite{savery2006overview},
+與問題導向學習(Problem-Based Learning, PBL)\cite{savery2006overview,hmelo2004problem},
 將AI從「答案提供者」轉變為「學習鷹架」。
+此教學設計參考認知學徒制(Cognitive Apprenticeship)中的鷹架理論\cite{collins1989cognitive,wood1976role},
+透過逐步減少外部支持,促進學生建立內在學習策略與自主學習能力\cite{jarvela2015enhancing}。
+
+\textbf{研究創新性}:有別於現有研究多聚焦於AI工具對學習成效的影響\cite{kazemitabaar2023studying,kazemitabaar2024codeaid},
+本研究首次提出系統化的AI鷹架漸退機制,並結合學習歷程資料分析,
+探討如何透過教學設計引導學生從「AI依賴」轉向「AI協作」,最終達到「自主學習」。
 
 \textbf{核心理念}:透過三階段AI鷹架漸退設計:
 \begin{enumerate}
@@ -60,9 +72,10 @@ ChatGPT等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley20
 
 \textbf{預期效益}:
 \begin{itemize}
-\item 提升學生程式設計學習成效與自我效能
+\item 提升學生程式設計學習成效與自我效能,促進內在學習動機\cite{ryan2000selfdetermination}
 \item 降低AI過度依賴,培養自我調節學習能力
 \item 發展有效的AI輔助教學模式,可推廣至其他課程
+\item 探索AI工具在教育中的負責任使用方式\cite{dignum2019responsible}
 \end{itemize}
 
 \subsection{研究問題}
@@ -70,9 +83,13 @@ ChatGPT等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley20
 本研究擬探討以下四個核心問題:
 
 \begin{enumerate}
-\item 在三階段AI鷹架漸退模式下,學生的Python程式設計能力(知識理解、程式撰寫、問題解決)是否顯著提升?
-\item 學生對AI工具的依賴程度與自我調節學習能力,在三階段教學中如何轉變?
-\item 不同階段的AI鷹架設計,如何影響學生的學習歷程與行為模式?
-\item 學生對AI輔助程式設計學習的態度、經驗與反思為何?
+\item \textbf{學習成效}:在三階段AI鷹架漸退模式下,學生的Python程式設計能力
+(概念理解、程式撰寫、除錯能力、問題解決)相較於傳統教學是否顯著提升?
+\item \textbf{學習行為轉變}:學生對AI工具的依賴程度與自我調節學習能力,
+在引導期、轉換期、自主期三階段中如何演變?具體表現為何?
+\item \textbf{學習歷程分析}:不同階段的AI鷹架設計(提示結構、互動頻率、回饋類型),
+如何影響學生的學習策略、認知負荷與問題解決歷程?
+\item \textbf{學習者觀點}:學生對AI輔助程式設計學習的態度、使用經驗、
+困難挑戰與學習反思為何?如何評價此教學模式?
 \end{enumerate}
 
