@@ -1,0 +1,18 @@
+% !TeX root = ./main.tex
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+\documentclass[a4paper, 12pt]{article}
+% Project style: loads fonts, CJK, layout, titlesec, tables, graphics, hyperref
+\usepackage{twsetup}
+% Front matter metadata (kept in a separate file, still preamble)
+\input{frontmatter/meta}
+
+\title{Sample Document}
+\author{Author Name}
+\date{\today}
+\begin{document}
+\input{frontmatter/titlepage}
+\input{sections/introduction}
+\input{sections/math}
+\input{sections/chinese-demo}
+\end{document}

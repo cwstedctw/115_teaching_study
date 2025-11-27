@@ -1,0 +1,70 @@
+% Traditional Chinese article setup (XeLaTeX)
+% Package: twsetup.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{twsetup}[2025/11/27 v1.0 TW article setup]
+
+% Fonts and CJK
+\RequirePackage{fontspec}
+\RequirePackage{xeCJK}
+  \setmainfont{Times New Roman}
+  \setCJKmainfont{Microsoft JhengHei}
+  \setCJKsansfont{Microsoft JhengHei}
+  \setCJKfamilyfont{kai}{DFKai-SB}
+  \newcommand{\kai}[1]{{\CJKfamily{kai}#1}}
+  % Alternative (uncomment if you prefer Noto fonts)
+  % \setCJKmainfont{Noto Serif CJK TC}
+  % \setCJKsansfont{Noto Sans CJK TC}
+
+% Layout & spacing
+\RequirePackage[margin=2.5cm]{geometry}
+\RequirePackage{setspace}
+% No default line spacing enforced here; set in document if needed
+
+% Math
+\RequirePackage{amsmath, amsfonts}
+
+% Section formatting and Chinese numerals
+\RequirePackage{titlesec}
+% Map section counter to Chinese financial numerals 壹貳參肆伍陸柒捌玖拾
+\newcommand{\CJKSectionNumber}[1]{%
+  \ifcase#1\or 壹\or 貳\or 參\or 肆\or 伍\or 陸\or 柒\or 捌\or 玖\or 拾\else #1\fi
+}
+% Map subsection counter to （一）...（十） then fallback
+\newcommand{\CJKSubsectionNumber}[1]{%
+  \ifcase#1\or （一）\or （二）\or （三）\or （四）\or （五）\or （六）\or （七）\or （八）\or （九）\or （十）\else (#1)\fi
+}
+% Title formats
+\titleformat{\section}{\Large\bfseries}{\CJKSectionNumber{\value{section}}、}{0em}{}
+\titleformat{\subsection}{\large\bfseries}{\CJKSubsectionNumber{\value{subsection}}}{0.5em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\arabic{subsubsection}.}{0.5em}{}
+% Spacing
+\titlespacing*{\section}{0pt}{1.8ex plus .6ex}{1.0ex}
+\titlespacing*{\subsection}{0pt}{1.2ex plus .4ex}{0.6ex}
+\titlespacing*{\subsubsection}{0pt}{1.0ex plus .3ex}{0.4ex}
+
+% Lists
+\RequirePackage{enumitem}
+\setlist{nosep}
+
+% Tables
+\RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{array}
+\RequirePackage{xcolor}
+\RequirePackage{colortbl}
+\definecolor{lightgray}{gray}{0.9}
+
+% Graphics
+\RequirePackage{graphicx}
+\graphicspath{{figures/}}
+
+% Hyperref (keep minimal defaults; allow override in document)
+\RequirePackage{hyperref}
+\hypersetup{
+  unicode=true,
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue,
+  pdfborder={0 0 0}
+}
