@@ -18,7 +18,7 @@
 % Layout & spacing
 \RequirePackage[margin=2.5cm]{geometry}
 \RequirePackage{setspace}
-% No default line spacing enforced here; set in document if needed
+\setstretch{1.5}  % 1.5 line spacing for better readability
 
 % Math
 \RequirePackage{amsmath, amsfonts}
@@ -68,3 +68,7 @@
   citecolor=blue,
   pdfborder={0 0 0}
 }
+
+% Bibliography with biblatex
+\RequirePackage[style=ieee,backend=biber]{biblatex}
+\addbibresource{references.bib}

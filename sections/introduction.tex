@@ -1,41 +1,78 @@
-\section{Introduction}
-This is a sample document to demonstrate the LaTeX structure. See Section~\ref{sec:chinese-font-demo} for Chinese font demo.
 
-\section{Chinese Font Demo}
-\label{sec:chinese-font-demo}
-This section demonstrates the use of Chinese fonts in LaTeX.
+\section{研究動機與背景}
 
-\subsection{Sample Data Table}
-Table~\ref{tab:sample} shows example student performance data from a programming course.
+\subsection{教學問題脈絡}
 
-\begin{table}[h]
-\centering
-\caption{學生程式設計課程成績統計}
-\label{tab:sample}
-\vspace{0.5cm}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\rowcolor{lightgray}
-\textbf{學生編號} & \textbf{作業成績} & \textbf{期中考} & \textbf{期末考} & \textbf{總成績} \\
-\hline
-S001 & 85 & 78 & 82 & 81.7 \\
-\hline
-S002 & 92 & 88 & 90 & 90.0 \\
-\hline
-S003 & 76 & 82 & 79 & 79.0 \\
-\hline
-S004 & 88 & 85 & 91 & 88.0 \\
-\hline
-S005 & 94 & 92 & 95 & 93.7 \\
-\hline
-S006 & 73 & 70 & 75 & 72.7 \\
-\hline
-S007 & 89 & 86 & 88 & 87.7 \\
-\hline
-S008 & 81 & 79 & 83 & 81.0 \\
-\hline
-\rowcolor{lightgray}
-\textbf{平均} & \textbf{84.8} & \textbf{82.5} & \textbf{85.4} & \textbf{84.2} \\
-\hline
-\end{tabular}
-\end{table}
+隨著人工智慧技術的普及,程式設計能力已成為21世紀公民的基本素養\cite{wing2006computational}。
+本校通識教育中心開設之「程式設計與應用」課程,旨在培養非資訊科系學生的運算思維與程式設計能力。
+然而,教學實踐中面臨三大核心挑戰:
+
+\textbf{挑戰一:學習困難與高挫折率}
+
+113學年度課程資料顯示,62\%學生反映初期學習困難,期中考僅47\%及格,且僅31\%學生能獨立完成期末專題。
+非資訊背景學生在學習程式設計時面臨多重障礙,包括抽象概念理解困難、語法錯誤頻繁、
+缺乏問題分解能力等\cite{guzdial2015learner,qian2017misconceptions}。
+
+\textbf{挑戰二:生成式AI帶來的認知卸載危機}
+
+ChatGPT等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,becker2023programming},
+但學生過度依賴AI可能導致「認知卸載」(cognitive offloading),即將思考過程外包給AI,
+而未真正理解程式邏輯\cite{kazemitabaar2023studying}。
+研究顯示,當學生直接複製AI生成的程式碼而不加修改時,92\%會接受錯誤答案\cite{prather2024weird}。
+
+\textbf{挑戰三:傳統教學方法的侷限}
+
+傳統的「講述-練習」教學模式難以有效支持學生建立自主學習能力。
+教師難以即時診斷每位學生的學習困難,也無法提供個別化的學習支持\cite{hmelo2004problem}。
+
+\subsection{傳統教學方法說明}
+
+過去本課程採用以下教學方法:
+
+\begin{enumerate}
+\item \textbf{講述法為主}:教師透過投影片講解程式概念與語法,學生被動接收知識。
+\item \textbf{範例示範}:教師示範程式碼撰寫過程,學生模仿練習。
+\item \textbf{課後作業}:指派固定題目供學生練習,但缺乏即時回饋機制。
+\item \textbf{AI工具使用方式}:允許學生自由使用ChatGPT等工具,但未提供使用指引或限制。
+\end{enumerate}
+
+此模式的主要問題:
+\begin{itemize}
+\item 學生缺乏主動探索與問題解決的機會
+\item 無法培養自我調節學習能力
+\item AI工具使用缺乏教學設計,導致過度依賴
+\item 評量方式難以區分學生真實能力與AI協助程度
+\end{itemize}
+
+\subsection{改進方向與預期效益}
+
+本研究提出「AI鷹架漸退式教學模式」,
+結合自我調節學習理論(Self-Regulated Learning, SRL)\cite{zimmerman2002becoming,azevedo2019using}
+與問題導向學習(Problem-Based Learning, PBL)\cite{savery2006overview},
+將AI從「答案提供者」轉變為「學習鷹架」。
+
+\textbf{核心理念}:透過三階段AI鷹架漸退設計:
+\begin{enumerate}
+\item \textbf{引導期}(1-6週):高度結構化AI提示,引導學生思考
+\item \textbf{轉換期}(7-12週):部分鷹架移除,鼓勵學生先嘗試
+\item \textbf{自主期}(13-18週):最小化AI介入,學生主導學習
+\end{enumerate}
+
+\textbf{預期效益}:
+\begin{itemize}
+\item 提升學生程式設計學習成效與自我效能
+\item 降低AI過度依賴,培養自我調節學習能力
+\item 發展有效的AI輔助教學模式,可推廣至其他課程
+\end{itemize}
+
+\subsection{研究問題}
+
+本研究擬探討以下四個核心問題:
+
+\begin{enumerate}
+\item 在三階段AI鷹架漸退模式下,學生的Python程式設計能力(知識理解、程式撰寫、問題解決)是否顯著提升?
+\item 學生對AI工具的依賴程度與自我調節學習能力,在三階段教學中如何轉變?
+\item 不同階段的AI鷹架設計,如何影響學生的學習歷程與行為模式?
+\item 學生對AI輔助程式設計學習的態度、經驗與反思為何?
+\end{enumerate}
+
