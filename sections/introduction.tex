@@ -3,25 +3,25 @@
 
 \subsection{教學問題脈絡}
 
-隨著人工智慧技術的普及,程式設計能力已成為21世紀公民的基本素養,
+隨著人工智慧技術的普及，程式設計能力已成為21世紀公民的基本素養，
 運算思維(Computational Thinking)更被視為跨領域問題解決的核心能力\cite{wing2006computational}。
-本校通識教育中心開設之「程式設計與應用」課程,以Python為教學語言\cite{cs50p2024},
+本校通識教育中心開設之「程式設計與應用」課程，以Python為教學語言\cite{cs50p2024}，
 旨在培養非資訊科系學生的運算思維與程式設計能力。
-然而,教學實踐中面臨三大核心挑戰:
+然而，教學實踐中面臨三大核心挑戰：
 
-\textbf{挑戰一:學習困難與高挫折率}
+	extbf{挑戰一：學習困難與高挫折率}
 
-113學年度課程資料顯示,62\%學生反映初期學習困難,期中考僅47\%及格,且僅31\%學生能獨立完成期末專題。
-非資訊背景學生在學習程式設計時面臨多重障礙,包括抽象概念理解困難、語法錯誤頻繁、
+113學年度課程資料顯示，62\%學生反映初期學習困難，期中考僅47\%及格，且僅31\%學生能獨立完成期末專題。
+非資訊背景學生在學習程式設計時面臨多重障礙，包括抽象概念理解困難、語法錯誤頻繁、
 缺乏問題分解能力等\cite{guzdial2015learner,qian2017misconceptions}。
 
-\textbf{挑戰二:生成式AI帶來的認知卸載危機}
+	extbf{挑戰二：生成式AI帶來的認知卸載危機}
 
-ChatGPT、GitHub Copilot等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,denny2023conversing},
+ChatGPT、GitHub Copilot等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,denny2023conversing}，
 為程式設計教育帶來前所未有的機會與挑戰\cite{becker2023programming}。
-然而,學生過度依賴AI可能導致「認知卸載」(cognitive offloading),即將思考過程外包給AI,
+然而，學生過度依賴AI可能導致「認知卸載」（cognitive offloading），即將思考過程外包給AI，
 而未真正理解程式邏輯\cite{kazemitabaar2023studying}。
-研究顯示,當學生直接複製AI生成的程式碼而不加修改時,92\%會接受錯誤答案\cite{prather2024weird},
+研究顯示，當學生直接複製AI生成的程式碼而不加修改時，92\%會接受錯誤答案\cite{prather2024weird}，
 且在後續獨立解題時表現顯著下降\cite{finnieansley2023exam}。
 
 \textbf{挑戰三:傳統教學方法的侷限}
@@ -78,18 +78,51 @@ ChatGPT、GitHub Copilot等生成式AI工具能夠快速生成完整程式碼\ci
 \item 探索AI工具在教育中的負責任使用方式\cite{dignum2019responsible}
 \end{itemize}
 
+\subsection{執行策略與立即行動}
+
+為確保教學設計可落地且可檢核，本研究提出可即刻採用的教學與評量步驟，著重於「先思考、後求助、再驗證」。
+
+	extbf{教學步驟（三階段）}:
+\begin{enumerate}
+	\item \textbf{引導期（1–6週）}:提供兩套固定提示模板（除錯/設計），要求學生在使用AI前先完成「問題描述→嘗試步驟→預期輸出」三步。
+	\item \textbf{轉換期（7–12週）}:降低提示結構，改用「標題+步驟」簡化模板，導入「錯誤類型卡」（語法、邏輯、邊界、資料結構）協助自我診斷；期中小專題。
+	\item \textbf{自主期（13–18週）}:學生自訂提示模板，於期末專題中附上「AI使用揭露」與「可重現性說明」（含測試證據）。
+\end{enumerate}
+
+	extbf{評量與紀錄}:
+\begin{itemize}
+	\item 前後測：第2週/第17週施測，題型涵蓋控制流程、資料結構、函式、測試。
+	\item 量表：第6/12/17週施測短版SRL與AI使用量表（每構面4–6題）。
+	\item 日誌：每週填寫AI使用日誌（3–5筆），欄位含問題類型、先嘗試步驟、提示摘要、採納/拒絕、修正重點。
+	\item 反思：每4週撰寫150–200字，採「一錯一改」架構。
+\end{itemize}
+
+	extbf{Try it（本週即可執行）}:
+\begin{enumerate}
+	\item 發放「除錯/設計」提示模板，要求學生本週作業皆附三步驟思考紀錄。
+	\item 設定AI使用日誌表單，每位學生至少提交3筆互動紀錄。
+	\item 於下次上課進行5分鐘分享：挑選1個錯誤案例，簡述修正過程與學到的策略。
+\end{enumerate}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\linewidth]{framework.png}
+  \caption{研究架構圖}
+  \label{fig:framework}
+\end{figure}
+
 \subsection{研究問題}
 
-本研究擬探討以下四個核心問題:
+本研究擬探討以下四個核心問題：
 
 \begin{enumerate}
-\item \textbf{學習成效}:在三階段AI鷹架漸退模式下,學生的Python程式設計能力
-(概念理解、程式撰寫、除錯能力、問題解決)相較於傳統教學是否顯著提升?
-\item \textbf{學習行為轉變}:學生對AI工具的依賴程度與自我調節學習能力,
-在引導期、轉換期、自主期三階段中如何演變?具體表現為何?
-\item \textbf{學習歷程分析}:不同階段的AI鷹架設計(提示結構、互動頻率、回饋類型),
-如何影響學生的學習策略、認知負荷與問題解決歷程?
-\item \textbf{學習者觀點}:學生對AI輔助程式設計學習的態度、使用經驗、
-困難挑戰與學習反思為何?如何評價此教學模式?
+\item \textbf{學習成效}：在三階段AI鷹架漸退模式下，學生的Python程式設計能力
+（概念理解、程式撰寫、除錯能力、問題解決）相較於傳統教學是否顯著提升？
+\item \textbf{學習行為轉變}：學生對AI工具的依賴程度與自我調節學習能力，
+在引導期、轉換期、自主期三階段中如何演變？具體表現為何？
+\item \textbf{學習歷程分析}：不同階段的AI鷹架設計（提示結構、互動頻率、回饋類型），
+如何影響學生的學習策略、認知負荷與問題解決歷程？
+\item \textbf{學習者觀點}：學生對AI輔助程式設計學習的態度、使用經驗、
+困難挑戰與學習反思為何？如何評價此教學模式？
 \end{enumerate}
 

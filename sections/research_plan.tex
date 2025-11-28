@@ -7,7 +7,7 @@
 
 \subsection{研究設計}
 
-本研究採用\textbf{單組前後測準實驗設計}（one-group pretest-posttest quasi-experimental design），參考研究方法學相關論述\cite{creswell2018research}，並以混合方法整合量化與質性資料。
+本研究採用\textbf{單組前後測準實驗設計}（one-group pretest-posttest quasi-experimental design），參考研究方法學相關論述\cite{creswell2018research}，並以混合方法整合量化與質性資料。分析策略以簡潔可操作為原則，著重核心指標與可重現流程。
 
 \subsubsection{研究問題}
 
@@ -41,7 +41,9 @@
 
 包含AI使用態度分量表（12題）與SRL能力分量表（23題），採用Likert 5點量表。僅描述題構與施測流程，本計畫不報告建構效度與信度數值。
 
-\textbf{施測時間}：第6週（引導期末）、第12週（轉換期末）、第17週（自主期末），共三次施測。
+	extbf{施測時間}：第6週（引導期末）、第12週（轉換期末）、第17週（自主期末），共三次施測。
+
+\paragraph{短版量表說明} 為降低施測負擔並提升專注度，本計畫亦提供短版題構（總題數約16–20題），涵蓋目標設定、計畫監控、策略調整、反思與AI使用品質等核心面向；各時點施測時間控制於20分鐘內。
 
 \subsubsection{工具三：PBL專題評量規準}
 
@@ -50,6 +52,8 @@
 \subsubsection{工具四：AI互動紀錄}
 
 學生互動資料之分析與分類，參考既有研究提出的架構\cite{prather2024weird}。
+
+\paragraph{日誌欄位設計} 問題類型、先嘗試步驟、AI提示摘要、採納或拒絕理由、修正重點與驗證方式（測試/輸入輸出檢查）。每週建議提交3–5筆紀錄，期中與期末彙整自我觀察。
 
 \subsubsection{工具五：學習反思報告}
 
@@ -93,9 +97,9 @@
 \subsubsection{量化資料分析}
 
 \begin{enumerate}
-\item \textbf{Python程式設計能力}（對應研究問題一）：描述統計、成對樣本t檢定、效果量Cohen's d
-\item \textbf{AI依賴與SRL能力轉變}（對應研究問題二）：描述統計、重複量數變異數分析
-\item \textbf{AI互動行為}（對應研究問題三）：描述統計、各階段行為類型分布比較
+\item \textbf{Python程式設計能力}（對應研究問題一）：描述統計、成對樣本t檢定、效果量Cohen's d（以「個體差異分數的標準差」為分母）。
+\item \textbf{AI依賴與SRL能力轉變}（對應研究問題二）：針對第6、12、17週三個施測時點之量表資料，以Friedman檢定檢驗整體趨勢，必要時以Kendall's W呈現一致性。
+\item \textbf{AI互動行為}（對應研究問題三）：各週行為類型分布與比例，繪製「先嘗試後求助」趨勢線。
 \end{enumerate}
 
 \subsubsection{質性資料分析}
@@ -104,7 +108,20 @@
 
 \subsubsection{資料整合}
 
-採用方法三角檢證，整合量化與質性資料，從不同角度檢視研究問題。
+採用方法三角檢證，以\textit{joint display}呈現量化趨勢與質性脈絡，對照各階段鷹架與學習策略轉變。
+
+\subsection{介入忠誠度與誠信機制}
+\begin{itemize}
+	\item \textbf{介入忠誠度}:每週記錄提示模板使用率與教學步驟執行情況（教師/助教勾選），確保三階段設計一致。
+	\item \textbf{誠信機制}:期末專題須附「AI使用揭露」與「可重現性說明」，並提供最少3項測試證據（單元測試或輸入/輸出檢驗）。
+\end{itemize}
+
+\subsection{立即行動（Try it）}
+\begin{enumerate}
+	\item 發放並使用「除錯/設計」提示模板，要求作業附三步驟思考紀錄。
+	\item 建立AI使用日誌表單，學生每週完成至少3筆紀錄並於課堂分享1則案例。
+	\item 期中前導入「錯誤類型卡」，引導學生以自我診斷框架進行除錯與反思。
+\end{enumerate}
 
 \subsection{研究倫理}
 
