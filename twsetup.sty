@@ -21,13 +21,17 @@
 \setstretch{1.5}  % 1.5 line spacing for better readability
 
 % Math
-\RequirePackage{amsmath, amsfonts}
+\RequirePackage{amsmath, amsfonts, amssymb}
+
+% TikZ for diagrams
+\RequirePackage{tikz}
+\usetikzlibrary{shapes, arrows.meta, positioning}
 
 % Section formatting and Chinese numerals
 \RequirePackage{titlesec}
-% Map section counter to Chinese financial numerals 壹貳參肆伍陸柒捌玖拾
+% Map section counter to Chinese numerals 一二三四五六七八九十
 \newcommand{\CJKSectionNumber}[1]{%
-  \ifcase#1\or 壹\or 貳\or 參\or 肆\or 伍\or 陸\or 柒\or 捌\or 玖\or 拾\else #1\fi
+  \ifcase#1\or 一\or 二\or 三\or 四\or 五\or 六\or 七\or 八\or 九\or 十\else #1\fi
 }
 % Map subsection counter to （一）...（十） then fallback
 \newcommand{\CJKSubsectionNumber}[1]{%
@@ -75,6 +79,6 @@
   pdfborder={0 0 0}
 }
 
-% Bibliography with biblatex (numeric, grouped citations e.g., [3–5])
+% Bibliography with biblatex (numeric, grouped citations e.g., [3-5])
 \RequirePackage[style=numeric-comp,sorting=none,backend=biber]{biblatex}
 \addbibresource{references.bib}

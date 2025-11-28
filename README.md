@@ -24,7 +24,7 @@
 xelatex main.tex
 ```
 
-或使用 LaTeX 編輯器（如 TeXstudio, Overleaf）開啟 `main.tex` 並編譯。
+或使用 LaTeX 編輯器（如 TeXstudio， Overleaf）開啟 `main.tex` 並編譯。
 
 ## 字型需求
 - 微軟正黑體 (Microsoft JhengHei)

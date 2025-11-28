@@ -22,9 +22,9 @@
     \entry{wing2006computational}{article}{}{}
       \name{author}{1}{}{%
         {{hash=fc244460284339da385f5113c9207b79}{%
-           family={Wing},
-           familyi={W\bibinitperiod},
-           given={Jeannette\bibnamedelima M.},
+           family={Wing}，
+           familyi={W\bibinitperiod}，
+           given={Jeannette\bibnamedelima M.}，
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \strng{namehash}{fc244460284339da385f5113c9207b79}
@@ -54,7 +54,7 @@
     \entry{cs50p2024}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2018dc9017ff4522da542d27f6638522}{%
-           family={{Harvard University}},
+           family={{Harvard University}}，
            familyi={H\bibinitperiod}}}%
       }
       \strng{namehash}{2018dc9017ff4522da542d27f6638522}
@@ -82,13 +82,13 @@
     \entry{guzdial2015learner}{book}{}{}
       \name{author}{1}{}{%
         {{hash=251dfb7b6f35dbace0ecf7fb2a52cdef}{%
-           family={Guzdial},
-           familyi={G\bibinitperiod},
-           given={Mark},
+           family={Guzdial}，
+           familyi={G\bibinitperiod}，
+           given={Mark}，
            giveni={M\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {San Rafael, CA}%
+        {San Rafael， CA}%
       }
       \list{publisher}{1}{%
         {Morgan \& Claypool Publishers}%
@@ -114,14 +114,14 @@
     \entry{qian2017misconceptions}{article}{}{}
       \name{author}{2}{}{%
         {{hash=9230f557aa84e59f2408c5330586cfb1}{%
-           family={Qian},
-           familyi={Q\bibinitperiod},
-           given={Yizhou},
+           family={Qian}，
+           familyi={Q\bibinitperiod}，
+           given={Yizhou}，
            giveni={Y\bibinitperiod}}}%
         {{hash=6c2448d1919840b420f6b4ad6f16f564}{%
-           family={Lehman},
-           familyi={L\bibinitperiod},
-           given={James},
+           family={Lehman}，
+           familyi={L\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
       }
       \strng{namehash}{6d7b28ef50e4f04dac52ac7d5cb47479}
@@ -149,33 +149,33 @@
     \entry{finnieansley2022robots}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{hash=6c15b190de4b9a87c6f8fd93df48aad9}{%
-           family={Finnie-Ansley},
-           familyi={F\bibinithyphendelim A\bibinitperiod},
-           given={James},
+           family={Finnie-Ansley}，
+           familyi={F\bibinithyphendelim A\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=459470e9e5bd5b2e80b36fa84b380c9d}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Brett\bibnamedelima A.},
+           family={Becker}，
+           familyi={B\bibinitperiod}，
+           given={Brett\bibnamedelima A.}，
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=e605ad3952c6e5ec432a22ab6b6745e5}{%
-           family={Luxton-Reilly},
-           familyi={L\bibinithyphendelim R\bibinitperiod},
-           given={Andrew},
+           family={Luxton-Reilly}，
+           familyi={L\bibinithyphendelim R\bibinitperiod}，
+           given={Andrew}，
            giveni={A\bibinitperiod}}}%
         {{hash=d0ba59c1166563eb31b911caaa0ba3d4}{%
-           family={Prather},
-           familyi={P\bibinitperiod},
-           given={James},
+           family={Prather}，
+           familyi={P\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Virtual Event, Australia}%
+        {Virtual Event， Australia}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -207,23 +207,23 @@
     \entry{denny2023conversing}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=19c959b97c6069ca0ff9bfda68a74f7f}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Viraj},
+           family={Kumar}，
+           familyi={K\bibinitperiod}，
+           given={Viraj}，
            giveni={V\bibinitperiod}}}%
         {{hash=a4459ddd2c27dc0fd86be42838441a86}{%
-           family={Giacaman},
-           familyi={G\bibinitperiod},
-           given={Nasser},
+           family={Giacaman}，
+           familyi={G\bibinitperiod}，
+           given={Nasser}，
            giveni={N\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Toronto, ON, Canada}%
+        {Toronto， ON， Canada}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -254,38 +254,38 @@
     \entry{becker2023programming}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=459470e9e5bd5b2e80b36fa84b380c9d}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Brett\bibnamedelima A.},
+           family={Becker}，
+           familyi={B\bibinitperiod}，
+           given={Brett\bibnamedelima A.}，
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=6c15b190de4b9a87c6f8fd93df48aad9}{%
-           family={Finnie-Ansley},
-           familyi={F\bibinithyphendelim A\bibinitperiod},
-           given={James},
+           family={Finnie-Ansley}，
+           familyi={F\bibinithyphendelim A\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=e605ad3952c6e5ec432a22ab6b6745e5}{%
-           family={Luxton-Reilly},
-           familyi={L\bibinithyphendelim R\bibinitperiod},
-           given={Andrew},
+           family={Luxton-Reilly}，
+           familyi={L\bibinithyphendelim R\bibinitperiod}，
+           given={Andrew}，
            giveni={A\bibinitperiod}}}%
         {{hash=d0ba59c1166563eb31b911caaa0ba3d4}{%
-           family={Prather},
-           familyi={P\bibinitperiod},
-           given={James},
+           family={Prather}，
+           familyi={P\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=458eb372d294df60357c57aed334021d}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Eddie\bibnamedelima Antonio},
+           family={Santos}，
+           familyi={S\bibinitperiod}，
+           given={Eddie\bibnamedelima Antonio}，
            giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Toronto, ON, Canada}%
+        {Toronto， ON， Canada}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -316,38 +316,38 @@
     \entry{kazemitabaar2023studying}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=37e3ad5881053e038952089c0f0ef3a9}{%
-           family={Kazemitabaar},
-           familyi={K\bibinitperiod},
-           given={Majeed},
+           family={Kazemitabaar}，
+           familyi={K\bibinitperiod}，
+           given={Majeed}，
            giveni={M\bibinitperiod}}}%
         {{hash=e2aa51bb6eddb9eaa67ed5da183b6fd8}{%
-           family={Chow},
-           familyi={C\bibinitperiod},
-           given={Justin},
+           family={Chow}，
+           familyi={C\bibinitperiod}，
+           given={Justin}，
            giveni={J\bibinitperiod}}}%
         {{hash=bf00428f010809cd4df8f1b3415a8047}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Carl\bibnamedelimb Ka\bibnamedelima To},
+           family={Ma}，
+           familyi={M\bibinitperiod}，
+           given={Carl\bibnamedelimb Ka\bibnamedelima To}，
            giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=55553794dab2b32e95c7df55adc3329e}{%
-           family={Ericson},
-           familyi={E\bibinitperiod},
-           given={Barbara\bibnamedelima J.},
+           family={Ericson}，
+           familyi={E\bibinitperiod}，
+           given={Barbara\bibnamedelima J.}，
            giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=e574a90ce7d36a0154d39eaa3ae79e6b}{%
-           family={Weintrop},
-           familyi={W\bibinitperiod},
-           given={David},
+           family={Weintrop}，
+           familyi={W\bibinitperiod}，
+           given={David}，
            giveni={D\bibinitperiod}}}%
         {{hash=a71979814de0c5bd83eceda9ad69bd18}{%
-           family={Grossman},
-           familyi={G\bibinitperiod},
-           given={Tovi},
+           family={Grossman}，
+           familyi={G\bibinitperiod}，
+           given={Tovi}，
            giveni={T\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Hamburg, Germany}%
+        {Hamburg， Germany}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -377,49 +377,49 @@
     \entry{prather2024weird}{article}{}{}
       \name{author}{9}{}{%
         {{hash=d0ba59c1166563eb31b911caaa0ba3d4}{%
-           family={Prather},
-           familyi={P\bibinitperiod},
-           given={James},
+           family={Prather}，
+           familyi={P\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=9b66787a9810506738e6256c62a23f4d}{%
-           family={Reeves},
-           familyi={R\bibinitperiod},
-           given={Brent\bibnamedelima N.},
+           family={Reeves}，
+           familyi={R\bibinitperiod}，
+           given={Brent\bibnamedelima N.}，
            giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=459470e9e5bd5b2e80b36fa84b380c9d}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Brett\bibnamedelima A.},
+           family={Becker}，
+           familyi={B\bibinitperiod}，
+           given={Brett\bibnamedelima A.}，
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=e05dd3a598dd9694778231dc37efb331}{%
-           family={Leinonen},
-           familyi={L\bibinitperiod},
-           given={Juho},
+           family={Leinonen}，
+           familyi={L\bibinitperiod}，
+           given={Juho}，
            giveni={J\bibinitperiod}}}%
         {{hash=e605ad3952c6e5ec432a22ab6b6745e5}{%
-           family={Luxton-Reilly},
-           familyi={L\bibinithyphendelim R\bibinitperiod},
-           given={Andrew},
+           family={Luxton-Reilly}，
+           familyi={L\bibinithyphendelim R\bibinitperiod}，
+           given={Andrew}，
            giveni={A\bibinitperiod}}}%
         {{hash=7371a198c674c9f8013442d665c1ffc8}{%
-           family={Powell},
-           familyi={P\bibinitperiod},
-           given={Garrett},
+           family={Powell}，
+           familyi={P\bibinitperiod}，
+           given={Garrett}，
            giveni={G\bibinitperiod}}}%
         {{hash=6c15b190de4b9a87c6f8fd93df48aad9}{%
-           family={Finnie-Ansley},
-           familyi={F\bibinithyphendelim A\bibinitperiod},
-           given={James},
+           family={Finnie-Ansley}，
+           familyi={F\bibinithyphendelim A\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=458eb372d294df60357c57aed334021d}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Eddie\bibnamedelima Antonio},
+           family={Santos}，
+           familyi={S\bibinitperiod}，
+           given={Eddie\bibnamedelima Antonio}，
            giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{721152d7bf658856b72abeb25d479054}
@@ -447,38 +447,38 @@
     \entry{finnieansley2023exam}{inproceedings}{}{}
       \name{author}{6}{}{%
         {{hash=6c15b190de4b9a87c6f8fd93df48aad9}{%
-           family={Finnie-Ansley},
-           familyi={F\bibinithyphendelim A\bibinitperiod},
-           given={James},
+           family={Finnie-Ansley}，
+           familyi={F\bibinithyphendelim A\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=e605ad3952c6e5ec432a22ab6b6745e5}{%
-           family={Luxton-Reilly},
-           familyi={L\bibinithyphendelim R\bibinitperiod},
-           given={Andrew},
+           family={Luxton-Reilly}，
+           familyi={L\bibinithyphendelim R\bibinitperiod}，
+           given={Andrew}，
            giveni={A\bibinitperiod}}}%
         {{hash=458eb372d294df60357c57aed334021d}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Eddie\bibnamedelima Antonio},
+           family={Santos}，
+           familyi={S\bibinitperiod}，
+           given={Eddie\bibnamedelima Antonio}，
            giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=d0ba59c1166563eb31b911caaa0ba3d4}{%
-           family={Prather},
-           familyi={P\bibinitperiod},
-           given={James},
+           family={Prather}，
+           familyi={P\bibinitperiod}，
+           given={James}，
            giveni={J\bibinitperiod}}}%
         {{hash=459470e9e5bd5b2e80b36fa84b380c9d}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Brett\bibnamedelima A.},
+           family={Becker}，
+           familyi={B\bibinitperiod}，
+           given={Brett\bibnamedelima A.}，
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Melbourne, Australia}%
+        {Melbourne， Australia}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -510,9 +510,9 @@
     \entry{hmelo2004problem}{article}{}{}
       \name{author}{1}{}{%
         {{hash=6bd834d0b5c9e48232af1ed934d88061}{%
-           family={Hmelo-Silver},
-           familyi={H\bibinithyphendelim S\bibinitperiod},
-           given={Cindy\bibnamedelima E.},
+           family={Hmelo-Silver}，
+           familyi={H\bibinithyphendelim S\bibinitperiod}，
+           given={Cindy\bibnamedelima E.}，
            giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
       \strng{namehash}{6bd834d0b5c9e48232af1ed934d88061}
@@ -541,10 +541,10 @@
     \entry{lin2021teaching}{article}{}{}
       \name{author}{2}{}{%
         {{hash=d817039c766fa8562e886ccbbccd2dc1}{%
-           family={林育慈},
+           family={林育慈}，
            familyi={林\bibinitperiod}}}%
         {{hash=2fab89a245f7204ae8cfb60bca3dc517}{%
-           family={陳志洪},
+           family={陳志洪}，
            familyi={陳\bibinitperiod}}}%
       }
       \strng{namehash}{78bfc48336388defa605189e7f4e8c98}
@@ -560,7 +560,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{教學實踐與研究}
-      \field{note}{Lin, Y.-T., \& Chen, C.-H. (2021). Integrating Problem-Based Learning and Flipped Classroom in Programming Courses}
+      \field{note}{Lin， Y.-T.， \& Chen， C.-H. (2021). Integrating Problem-Based Learning and Flipped Classroom in Programming Courses}
       \field{number}{1}
       \field{title}{結合問題導向學習與翻轉教室於程式設計課程之研究}
       \field{volume}{4}
@@ -571,10 +571,10 @@
     \entry{lai2020analysis}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c066de7e3d4b49de79ca7a89722abe8c}{%
-           family={賴阿福},
+           family={賴阿福}，
            familyi={賴\bibinitperiod}}}%
         {{hash=d74cb65309442252f10df1ede7846267}{%
-           family={林志隆},
+           family={林志隆}，
            familyi={林\bibinitperiod}}}%
       }
       \strng{namehash}{d85ab60fe0b7e0d983175b5c21fa5e40}
@@ -590,7 +590,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{教育科學研究期刊}
-      \field{note}{Lai, A.-F., \& Lin, C.-L. (2020). Analysis of Programming Learning Effectiveness for Non-CS Majors}
+      \field{note}{Lai， A.-F.， \& Lin， C.-L. (2020). Analysis of Programming Learning Effectiveness for Non-CS Majors}
       \field{number}{3}
       \field{title}{非資訊科系學生程式設計學習成效分析}
       \field{volume}{65}
@@ -601,9 +601,9 @@
     \entry{zimmerman2002becoming}{article}{}{}
       \name{author}{1}{}{%
         {{hash=58316125b0d9778cca6c8c29d7ce3c60}{%
-           family={Zimmerman},
-           familyi={Z\bibinitperiod},
-           given={Barry\bibnamedelima J.},
+           family={Zimmerman}，
+           familyi={Z\bibinitperiod}，
+           given={Barry\bibnamedelima J.}，
            giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
@@ -635,14 +635,14 @@
     \entry{azevedo2019using}{article}{}{}
       \name{author}{2}{}{%
         {{hash=34834e6fb79ca3b2e2eea3658b7e33de}{%
-           family={Azevedo},
-           familyi={A\bibinitperiod},
-           given={Roger},
+           family={Azevedo}，
+           familyi={A\bibinitperiod}，
+           given={Roger}，
            giveni={R\bibinitperiod}}}%
         {{hash=05a150eb77bd5707ba81155255012b27}{%
-           family={Gašević},
-           familyi={G\bibinitperiod},
-           given={Dragan},
+           family={Gašević}，
+           familyi={G\bibinitperiod}，
+           given={Dragan}，
            giveni={D\bibinitperiod}}}%
       }
       \strng{namehash}{1a3485ba3b2e8d1c9d58ba21b1cb5306}
@@ -670,9 +670,9 @@
     \entry{savery2006overview}{article}{}{}
       \name{author}{1}{}{%
         {{hash=4f7d4262e0e8eae6019bcbf815c0c9bf}{%
-           family={Savery},
-           familyi={S\bibinitperiod},
-           given={John\bibnamedelima R.},
+           family={Savery}，
+           familyi={S\bibinitperiod}，
+           given={John\bibnamedelima R.}，
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
       \strng{namehash}{4f7d4262e0e8eae6019bcbf815c0c9bf}
@@ -701,30 +701,30 @@
     \entry{collins1989cognitive}{incollection}{}{}
       \name{author}{3}{}{%
         {{hash=f81dbc70a401559ebbd08b8d5f484286}{%
-           family={Collins},
-           familyi={C\bibinitperiod},
-           given={Allan},
+           family={Collins}，
+           familyi={C\bibinitperiod}，
+           given={Allan}，
            giveni={A\bibinitperiod}}}%
         {{hash=ba3c0fa94135bbee7f9cd5e2c54c11d8}{%
-           family={Brown},
-           familyi={B\bibinitperiod},
-           given={John\bibnamedelima Seely},
+           family={Brown}，
+           familyi={B\bibinitperiod}，
+           given={John\bibnamedelima Seely}，
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=2723f5fca2232b8b1e194cfdbf657f63}{%
-           family={Newman},
-           familyi={N\bibinitperiod},
-           given={Susan\bibnamedelima E.},
+           family={Newman}，
+           familyi={N\bibinitperiod}，
+           given={Susan\bibnamedelima E.}，
            giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
       \name{editor}{1}{}{%
         {{hash=a6bb0eee32af1aa58a9f7bbe1d08543e}{%
-           family={Resnick},
-           familyi={R\bibinitperiod},
-           given={Lauren\bibnamedelima B.},
+           family={Resnick}，
+           familyi={R\bibinitperiod}，
+           given={Lauren\bibnamedelima B.}，
            giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Hillsdale, NJ}%
+        {Hillsdale， NJ}%
       }
       \list{publisher}{1}{%
         {Lawrence Erlbaum Associates}%
@@ -745,8 +745,8 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Knowing, Learning, and Instruction: Essays in Honor of Robert Glaser}
-      \field{title}{Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics}
+      \field{booktitle}{Knowing， Learning， and Instruction: Essays in Honor of Robert Glaser}
+      \field{title}{Cognitive Apprenticeship: Teaching the Crafts of Reading， Writing， and Mathematics}
       \field{year}{1989}
       \field{pages}{453\bibrangedash 494}
       \range{pages}{42}
@@ -754,19 +754,19 @@
     \entry{wood1976role}{article}{}{}
       \name{author}{3}{}{%
         {{hash=ad0aae768a1174aba9738b6d2719985b}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={David},
+           family={Wood}，
+           familyi={W\bibinitperiod}，
+           given={David}，
            giveni={D\bibinitperiod}}}%
         {{hash=c7baa1b647ca0accd07f8d400e815ad5}{%
-           family={Bruner},
-           familyi={B\bibinitperiod},
-           given={Jerome\bibnamedelima S.},
+           family={Bruner}，
+           familyi={B\bibinitperiod}，
+           given={Jerome\bibnamedelima S.}，
            giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
         {{hash=4d85e7659d4e7707e8b05a31bc97f889}{%
-           family={Ross},
-           familyi={R\bibinitperiod},
-           given={Gail},
+           family={Ross}，
+           familyi={R\bibinitperiod}，
+           given={Gail}，
            giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{f3464d829d1d7286f7e71d3791886fe0}
@@ -795,40 +795,40 @@
     \entry{jarvela2015enhancing}{incollection}{}{}
       \name{author}{2}{}{%
         {{hash=d37b84a317ed478be31d917bdb3294f5}{%
-           family={Järvelä},
-           familyi={J\bibinitperiod},
-           given={Sanna},
+           family={Järvelä}，
+           familyi={J\bibinitperiod}，
+           given={Sanna}，
            giveni={S\bibinitperiod}}}%
         {{hash=8c7c19f41d971440bf86e5691085d4ec}{%
-           family={Hadwin},
-           familyi={H\bibinitperiod},
-           given={Allyson\bibnamedelima F.},
+           family={Hadwin}，
+           familyi={H\bibinitperiod}，
+           given={Allyson\bibnamedelima F.}，
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \name{editor}{4}{}{%
         {{hash=6bd834d0b5c9e48232af1ed934d88061}{%
-           family={Hmelo-Silver},
-           familyi={H\bibinithyphendelim S\bibinitperiod},
-           given={Cindy\bibnamedelima E.},
+           family={Hmelo-Silver}，
+           familyi={H\bibinithyphendelim S\bibinitperiod}，
+           given={Cindy\bibnamedelima E.}，
            giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
         {{hash=e0663742e8807ed1fd19970c3c27be5a}{%
-           family={Chinn},
-           familyi={C\bibinitperiod},
-           given={Clark\bibnamedelima A.},
+           family={Chinn}，
+           familyi={C\bibinitperiod}，
+           given={Clark\bibnamedelima A.}，
            giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=37733112812e04ef0c90cf3cf17f1c7e}{%
-           family={Chan},
-           familyi={C\bibinitperiod},
-           given={Carol\bibnamedelimb K.\bibnamedelimi K.},
+           family={Chan}，
+           familyi={C\bibinitperiod}，
+           given={Carol\bibnamedelimb K.\bibnamedelimi K.}，
            giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{hash=078a240f685052b531d44d30132d86aa}{%
-           family={O'Donnell},
-           familyi={O\bibinitperiod},
-           given={Angela\bibnamedelima M.},
+           family={O'Donnell}，
+           familyi={O\bibinitperiod}，
+           given={Angela\bibnamedelima M.}，
            giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {New York, NY}%
+        {New York， NY}%
       }
       \list{publisher}{1}{%
         {Routledge}%
@@ -858,43 +858,43 @@
     \entry{kazemitabaar2024codeaid}{inproceedings}{}{}
       \name{author}{7}{}{%
         {{hash=37e3ad5881053e038952089c0f0ef3a9}{%
-           family={Kazemitabaar},
-           familyi={K\bibinitperiod},
-           given={Majeed},
+           family={Kazemitabaar}，
+           familyi={K\bibinitperiod}，
+           given={Majeed}，
            giveni={M\bibinitperiod}}}%
         {{hash=6cfbc25bbae177dffd848b49e6411721}{%
-           family={Ye},
-           familyi={Y\bibinitperiod},
-           given={Runlong},
+           family={Ye}，
+           familyi={Y\bibinitperiod}，
+           given={Runlong}，
            giveni={R\bibinitperiod}}}%
         {{hash=7c74a229882135189b667f13f76cd23d}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xiaoning},
+           family={Wang}，
+           familyi={W\bibinitperiod}，
+           given={Xiaoning}，
            giveni={X\bibinitperiod}}}%
         {{hash=0d341cfafa312a4c5935653775777bf7}{%
-           family={Henley},
-           familyi={H\bibinitperiod},
-           given={Austin\bibnamedelima Z.},
+           family={Henley}，
+           familyi={H\bibinitperiod}，
+           given={Austin\bibnamedelima Z.}，
            giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
         {{hash=94639dd5d489d2e9ef5990c03ec52b20}{%
-           family={Denny},
-           familyi={D\bibinitperiod},
-           given={Paul},
+           family={Denny}，
+           familyi={D\bibinitperiod}，
+           given={Paul}，
            giveni={P\bibinitperiod}}}%
         {{hash=d05547752968b0233c70d8bf4c9b7535}{%
-           family={Craig},
-           familyi={C\bibinitperiod},
-           given={Michelle},
+           family={Craig}，
+           familyi={C\bibinitperiod}，
+           given={Michelle}，
            giveni={M\bibinitperiod}}}%
         {{hash=a71979814de0c5bd83eceda9ad69bd18}{%
-           family={Grossman},
-           familyi={G\bibinitperiod},
-           given={Tovi},
+           family={Grossman}，
+           familyi={G\bibinitperiod}，
+           given={Tovi}，
            giveni={T\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {New York, NY, USA}%
+        {New York， NY， USA}%
       }
       \list{publisher}{1}{%
         {ACM}%
@@ -924,14 +924,14 @@
     \entry{ryan2000selfdetermination}{article}{}{}
       \name{author}{2}{}{%
         {{hash=49ad03aeb3155f395016c49dd507c027}{%
-           family={Ryan},
-           familyi={R\bibinitperiod},
-           given={Richard\bibnamedelima M.},
+           family={Ryan}，
+           familyi={R\bibinitperiod}，
+           given={Richard\bibnamedelima M.}，
            giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=d733c22238af349bac296bb1e5b60deb}{%
-           family={Deci},
-           familyi={D\bibinitperiod},
-           given={Edward\bibnamedelima L.},
+           family={Deci}，
+           familyi={D\bibinitperiod}，
+           given={Edward\bibnamedelima L.}，
            giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
       \strng{namehash}{b8fdaf35d2ee9a085c4bd58b7f47fcc4}
@@ -948,7 +948,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{American Psychologist}
       \field{number}{1}
-      \field{title}{Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being}
+      \field{title}{Self-Determination Theory and the Facilitation of Intrinsic Motivation， Social Development， and Well-Being}
       \field{volume}{55}
       \field{year}{2000}
       \field{pages}{68\bibrangedash 78}
@@ -960,9 +960,9 @@
     \entry{dignum2019responsible}{article}{}{}
       \name{author}{1}{}{%
         {{hash=2038389dca7d321b07e82aa80cf4e902}{%
-           family={Dignum},
-           familyi={D\bibinitperiod},
-           given={Virginia},
+           family={Dignum}，
+           familyi={D\bibinitperiod}，
+           given={Virginia}，
            giveni={V\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
@@ -980,7 +980,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Artificial Intelligence: Foundations, Theory, and Algorithms}
+      \field{journaltitle}{Artificial Intelligence: Foundations， Theory， and Algorithms}
       \field{title}{Responsible Artificial Intelligence: How to Develop and Use AI in a Responsible Way}
       \field{year}{2019}
       \verb{doi}
