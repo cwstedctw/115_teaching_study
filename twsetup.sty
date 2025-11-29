@@ -6,15 +6,35 @@
 % Fonts and CJK
 \RequirePackage{fontspec}
 \RequirePackage{xeCJK}
-  \setmainfont{Times New Roman}
-  \setCJKmainfont{Microsoft JhengHei}
-  \setCJKsansfont{Microsoft JhengHei}
-  \setCJKmonofont{Microsoft JhengHei}
-  \setCJKfamilyfont{kai}{DFKai-SB}
-  \newcommand{\kai}[1]{{\CJKfamily{kai}#1}}
-  % Alternative (uncomment if you prefer Noto fonts)
-  % \setCJKmainfont{Noto Serif CJK TC}
-  % \setCJKsansfont{Noto Sans CJK TC}
+% Improve CJK font behavior across platforms
+\xeCJKsetup{AutoFakeBold=true, AutoFakeSlant=true, CJKmath=true}
+\setmainfont{Times New Roman}
+% CJK font selection with macOS-friendly fallbacks
+\IfFontExistsTF{Noto Serif CJK TC}{\setCJKmainfont{Noto Serif CJK TC}}{%
+  \IfFontExistsTF{PingFang TC}{\setCJKmainfont{PingFang TC}}{%
+    \IfFontExistsTF{Songti TC}{\setCJKmainfont{Songti TC}}{%
+      \IfFontExistsTF{Microsoft JhengHei}{\setCJKmainfont{Microsoft JhengHei}}{%
+        \IfFontExistsTF{PMingLiU}{\setCJKmainfont{PMingLiU}}{%
+          \IfFontExistsTF{MingLiU}{\setCJKmainfont{MingLiU}}{\setCJKmainfont{Hiragino Mincho ProN}}%
+        }%
+      }%
+    }%
+  }%
+}
+\IfFontExistsTF{Noto Sans CJK TC}{\setCJKsansfont{Noto Sans CJK TC}}{%
+  \IfFontExistsTF{PingFang TC}{\setCJKsansfont{PingFang TC}}{%
+    \IfFontExistsTF{Heiti TC}{\setCJKsansfont{Heiti TC}}{%
+      \IfFontExistsTF{Microsoft JhengHei}{\setCJKsansfont{Microsoft JhengHei}}{\setCJKsansfont{Hiragino Sans}}%
+    }%
+  }%
+}
+% Use sans as monofont fallback for CJK glyphs
+\IfFontExistsTF{Noto Sans Mono CJK TC}{\setCJKmonofont{Noto Sans Mono CJK TC}}{%
+  \IfFontExistsTF{PingFang TC}{\setCJKmonofont{PingFang TC}}{\IfFontExistsTF{Microsoft JhengHei}{\setCJKmonofont{Microsoft JhengHei}}{\setCJKmonofont{Hiragino Sans}}}%
+}
+% Kai family: use DFKai-SB if available, else fallback to PingFang
+\IfFontExistsTF{DFKai-SB}{\setCJKfamilyfont{kai}{DFKai-SB}}{\setCJKfamilyfont{kai}{PingFang TC}}
+\newcommand{\kai}[1]{{\CJKfamily{kai}#1}}
 
 % Layout & spacing
 \RequirePackage[margin=2.5cm]{geometry}
