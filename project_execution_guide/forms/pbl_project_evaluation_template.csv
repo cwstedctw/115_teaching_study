@@ -1,0 +1,5 @@
+student_id,project_name,evaluation_type,evaluation_date,code_correctness_score,code_correctness_comment,problem_analysis_score,problem_analysis_comment,interface_design_score,interface_design_comment,creativity_score,creativity_comment,learning_reflection_score,learning_reflection_comment,total_score,evaluator,notes
+S001,天氣查詢系統,midterm,2025-05-15,27,程式功能完整運作正常,22,需求分析清楚但缺少錯誤處理,18,介面簡潔易用,13,結合API應用有創意,9,反思深入,89,教師A,良好
+S002,成績計算器,midterm,2025-05-15,25,基本功能正確但有小bug,20,問題分解不夠細緻,16,介面功能性佳但美觀度可提升,11,實用但創新度不足,8,反思內容充實,80,教師A,可再加強
+S003,猜數字遊戲,midterm,2025-05-15,29,程式邏輯嚴謹無錯誤,24,完整考慮各種情境,19,遊戲介面友善,14,加入難度選擇很有創意,10,深刻反思學習過程,96,教師A,優秀
+S001,個人記帳App,final,2025-06-20,28,功能完整資料處理正確,24,需求分析完整考慮使用情境,19,UI設計友善,14,創新加入圖表分析,10,反思學習成長,95,教師A,優秀進步明顯

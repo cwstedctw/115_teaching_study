@@ -1,0 +1,8 @@
+student_id,log_date,week,problem_type,problem_description,tried_before_ai,try_steps,ai_tool_used,ai_prompt,ai_response_summary,adoption_decision,adoption_reason,modification_made,verification_method,verification_result,learning_notes
+S001,2025-03-15,3,debugging,變數命名錯誤導致程式無法執行,yes,檢查語法、查看錯誤訊息,ChatGPT,為什麼我的程式出現NameError?,AI指出變數名稱拼寫錯誤,adopted,AI的解釋很清楚,修正變數名稱,執行測試,通過,學會檢查變數名稱
+S001,2025-03-18,3,design,不知道如何設計迴圈結構,yes,嘗試用for寫但邏輯不對,GitHub Copilot,需要計算1到100的總和,AI提供for迴圈範例,adopted,程式碼簡潔易懂,無需修改直接使用,輸入輸出檢查,正確,理解for迴圈基本用法
+S001,2025-03-22,4,optimization,程式跑太慢想優化,no,,ChatGPT,如何讓這段排序程式更快,AI建議使用內建sort函數,adopted,內建函數確實更快,改用sorted()函數,執行時間比較,快5倍,學會使用內建函數
+S002,2025-03-16,3,debugging,list index out of range錯誤,yes,檢查迴圈範圍、print除錯,ChatGPT,list索引錯誤怎麼解決,AI說明索引範圍問題,adopted,理解索引從0開始,修改range範圍,單元測試,通過,記住索引規則
+S002,2025-03-20,4,design,不會寫函數傳遞參數,yes,查看課本範例但還是不懂,GitHub Copilot,如何寫一個計算平均的函數,AI生成完整函數範例,partially,需要理解參數用途,修改參數名稱使其更清楚,測試不同輸入,通過,理解函數參數概念
+S003,2025-03-17,3,debugging,字串連接出現TypeError,yes,嘗試用+連接但失敗,ChatGPT,字串和數字無法相加,AI建議使用str()轉換,adopted,解法直接有效,加入str()轉換,輸出檢查,正確,記得型別轉換
+S003,2025-03-25,4,application,想做一個簡單計算機,no,,ChatGPT,如何用Python寫計算機,AI提供完整程式架構,rejected,太複雜想自己寫,參考架構自己實作,功能測試,部分通過,學到程式架構思維
