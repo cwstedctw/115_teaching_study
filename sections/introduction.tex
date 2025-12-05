@@ -7,7 +7,7 @@
 
 隨著人工智慧技術的普及，程式設計能力已成為21世紀公民的基本素養，
 運算思維(Computational Thinking)更被視為跨領域問題解決的核心能力\cite{wing2006computational}。
-本校通識教育中心開設之「程式設計與應用」課程，以Python為教學語言\cite{cs50p2024}，
+本校通識教育中心開設之「初級程式設計－Python」課程，參考哈佛大學CS50P課程設計\cite{cs50p2024}，
 旨在培養非資訊科系學生的運算思維與程式設計能力。
 然而，教學實踐中面臨三大核心挑戰：
 
@@ -19,17 +19,20 @@
 
 \textbf{挑戰二：生成式AI帶來的認知卸載危機}
 
-ChatGPT、GitHub Copilot等生成式AI工具能夠快速生成完整程式碼\cite{finnieansley2022robots,denny2023conversing}，
+研究顯示，OpenAI Codex等AI程式碼生成工具能以約78\%的準確率解決入門程式設計問題\cite{finnieansley2022robots}，
+而透過自然語言提示(prompt engineering)與ChatGPT、GitHub Copilot等工具互動，
+學生可快速獲得程式碼建議\cite{denny2023conversing}，
 為程式設計教育帶來前所未有的機會與挑戰\cite{becker2023programming}。
 然而，學生過度依賴AI可能導致「認知卸載」（cognitive offloading），即將思考過程外包給AI，
 而未真正理解程式邏輯\cite{kazemitabaar2023studying}。
-研究顯示，當學生直接複製AI生成的程式碼而不加修改時，92\%會接受錯誤答案\cite{prather2024weird}，
-且在後續獨立解題時表現顯著下降\cite{finnieansley2023exam}。
+研究顯示，學生傾向於直接接受AI生成的程式碼而不加驗證，即使程式碼包含錯誤也難以察覺\cite{prather2024weird}。
+此外，AI工具在進階程式設計問題（如CS2資料結構與演算法）上同樣表現優異，能超越多數學生\cite{finnieansley2023exam}，
+這使得學生更容易產生依賴心理。
 
 \textbf{挑戰三：傳統教學方法的侷限}
 
 傳統的「講述-練習」教學模式難以有效支持學生建立自主學習能力。
-教師難以即時診斷每位學生的學習困難，也無法提供個別化的學習支持\cite{hmelo2004problem}。
+教師難以即時診斷每位學生的學習困難，也無法提供個別化的學習支持。
 此外，國內針對非資訊科系學生的程式設計教學研究也指出，
 單向講授模式不利於培養學生的運算思維與問題解決能力\cite{lin2021teaching,lai2020analysis}。
 
