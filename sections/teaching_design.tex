@@ -4,68 +4,68 @@
 %% ============================================
 
 \subsection{教學設計與規劃}
+\label{sec:teaching_design}
 
-\paragraph{教學理念與設計原則}
+\subsubsection{教學理念與設計原則}
 
 本研究之教學設計以「AI鷹架漸退模式」為核心，融合三大理論框架：自我調節學習理論（Self-Regulated Learning，SRL）\cite{zimmerman2002becoming}、認知學徒制（Cognitive Apprenticeship）\cite{collins1989cognitive}與問題導向學習（Problem-Based Learning，PBL）\cite{savery2006overview}。設計原則如下：
 
-\textbf{原則一：結構化AI支持}
-
+\textbf{原則一：結構化AI支持}——
 相關研究顯示\cite{kazemitabaar2024codeaid}，採用「不直接提供完整程式碼」的AI鷹架設計，透過概念解釋、虛擬碼生成、錯誤標註等方式提供分層支持，能有效促進學生學習並避免過度依賴。本課程據此設計AI工具為學習引導者而非答案提供者。
 
-\textbf{原則二：漸進式鷹架撤除}
+\textbf{原則二：漸進式鷹架撤除}——
+依據認知學徒制相關文獻\cite{collins1989cognitive}的「示範-指導-鷹架-漸退」模式，本課程將AI支持程度從高（引導期）逐步降至低（自主期）。鷹架的核心精神在於初期提供支持、隨能力增長逐步撤除，促進學習者內化知識與技能\cite{wood1976role}。
 
-依據認知學徒制相關文獻\cite{collins1989cognitive}的「示範-指導-鷹架-漸退」模式，本課程將AI支持程度從高（引導期）逐步降至低（自主期）。另有研究指出\cite{wood1976role}，鷹架的核心精神在於初期提供支持、隨能力增長逐步撤除，促進學習者內化知識與技能。
+\textbf{原則三：問題導向情境學習}——
+PBL能有效促進深度學習、問題解決能力與自主學習動機\cite{hmelo2004problem}；在臺灣脈絡下的教學實踐亦證實\cite{lin2021teaching}，結合PBL與翻轉教室於程式設計課程能顯著提升成效與動機。本課程每週以真實程式設計問題為導向，增進學習動機與知識遷移。
 
-\textbf{原則三：問題導向情境學習}
+\textbf{原則四：自我調節學習培養}——
+SRL定義為學習者主動設定目標、監控歷程、調整策略的循環過程\cite{zimmerman2002becoming}；在科技輔助學習環境中，SRL能力是學習成功的關鍵預測因子\cite{azevedo2019using}。本課程透過學習反思報告、AI使用紀錄回顧等活動，引導學生發展後設認知能力。
 
-多項研究顯示\cite{hmelo2004problem}，PBL能有效促進深度學習、問題解決能力與自主學習動機；在臺灣脈絡下的教學實踐亦證實\cite{lin2021teaching}，結合PBL與翻轉教室於程式設計課程能顯著提升成效與動機。本課程每週以真實程式設計問題為導向，增進學習動機與知識遷移。
+\textbf{原則五：差異化教學支持}——
+考量學生程式設計先備知識與學習步調之差異，本課程採用多層次差異化策略：（1）提供基礎、進階與挑戰三種難度的練習題；（2）AI鷹架支持程度可依個別學習需求彈性調整；（3）設置「學習夥伴」制度，促進同儕互助學習。
 
-\textbf{原則四：自我調節學習培養}
-
-有研究將SRL定義為學習者主動設定目標、監控歷程、調整策略的循環過程\cite{zimmerman2002becoming}；亦有研究指出在科技輔助學習環境中，SRL能力是學習成功的關鍵預測因子\cite{azevedo2019using}。本課程透過學習反思報告、AI使用紀錄回顧等活動，引導學生發展後設認知能力。
-
-\paragraph{課程架構概述}
+\subsubsection{課程架構概述}
 
 本課程為期\textbf{18週}，每週\textbf{3小時}，共計\textbf{54小時}。課程設計分為兩大部分：
 
-\textbf{第一部分：Python基礎知識建構（第1-9週）}
-
+\textbf{第一部分：Python基礎知識建構（第1--9週）}——
 課程架構參考哈佛大學CS50P（CS50's Introduction to Programming with Python）的設計\cite{cs50p2024}，涵蓋Python程式設計核心知識：函式與變數、條件判斷、迴圈、例外處理、套件、檔案處理等基礎概念。此部分著重建立學生的程式設計基礎能力。
 
-\textbf{第二部分：問題解決與專題應用（第10-18週）}
-
+\textbf{第二部分：問題解決與專題應用（第10--18週）}——
 運用前9週所學的Python基礎知識，透過真實問題情境與專題實作，培養學生的問題解決能力、知識整合能力與自主學習能力。此部分著重將所學知識應用於實際問題，並逐步撤除AI鷹架，達成研究目標。
 
-課程分為三個教學階段，配合AI鷹架漸退設計：
+課程分為三個教學階段，配合AI鷹架漸退設計（如圖\ref{fig:teaching_flow}所示）：
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.9\linewidth]{teaching_flow.png}
-  \caption{AI鷹架漸退教學模式}
+  \caption{AI鷹架漸退教學模式流程圖}
   \label{fig:teaching_flow}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
+\small
 \caption{三階段課程架構與研究目標對應}
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{|c|c|m{4.5cm}|m{4.5cm}|}
+\label{tab:three_phases}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{|c|c|m{3.8cm}|m{3.8cm}|}
 \hline
 \textbf{階段} & \textbf{週次} & \textbf{課程重點} & \textbf{對應研究目標} \\
 \hline
-引導期 & 1-6週 & Python基礎知識（CS50P核心內容） & 建立基礎能力、學習AI使用策略 \\
+引導期 & 1--6週 & Python基礎知識（CS50P核心內容） & 建立基礎能力、學習AI使用策略 \\
 \hline
-轉換期 & 7-12週 & 進階知識與問題解決應用 & 減少AI依賴、培養獨立思考 \\
+轉換期 & 7--12週 & 進階知識與問題解決應用 & 減少AI依賴、培養獨立思考 \\
 \hline
-自主期 & 13-18週 & 專題實作與知識整合 & 建立自主學習能力、完成專題 \\
+自主期 & 13--18週 & 專題實作與知識整合 & 建立自主學習能力、完成專題 \\
 \hline
 \end{tabular}
 \end{table}
 
-\paragraph{18週課程設計}
+\subsubsection{18週課程設計}
 
-\paragraph{第一階段：引導期（1-6週）}
+\paragraph{第一階段：引導期（1--6週）}
 
 \textbf{教學目標}：
 \begin{itemize}[leftmargin=2em]
@@ -82,13 +82,22 @@
 \item 錯誤診斷模式：AI指出錯誤類型與可能原因，不直接提供修正版本
 \end{itemize}
 
+\textbf{學習成效指標}：
+\begin{itemize}[leftmargin=2em]
+\item 能正確使用Python基本語法撰寫簡單程式（正確率達70\%以上）
+\item 能運用提示範本與AI進行有效對話（提示品質評分達3分/5分以上）
+\item 能識別並描述程式錯誤類型（錯誤辨識正確率達60\%以上）
+\end{itemize}
+
 \textbf{週次規劃}：
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
+\footnotesize
 \caption{引導期週次規劃}
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{|c|m{3cm}|m{4cm}|m{5cm}|}
+\label{tab:phase1_schedule}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|c|m{2.5cm}|m{3.2cm}|m{4.2cm}|}
 \hline
 \textbf{週次} & \textbf{主題} & \textbf{CS50P對應內容} & \textbf{課堂活動} \\
 \hline
@@ -107,7 +116,7 @@
 \end{tabular}
 \end{table}
 
-\paragraph{第二階段：轉換期（7-12週）}
+\paragraph{第二階段：轉換期（7--12週）}
 
 \textbf{教學目標}：
 \begin{itemize}[leftmargin=2em]
@@ -122,15 +131,25 @@
 \item 建立「先嘗試後求助」規則：學生需先獨立嘗試15分鐘再使用AI
 \item AI回應轉為「問題診斷」模式，提供方向性建議而非具體解法
 \item 引入同儕協作機制：參考社會性共享調節概念之相關研究\cite{jarvela2015enhancing}
+\item 實施「AI使用額度制」：每週限定AI諮詢次數，培養策略性求助行為
+\end{itemize}
+
+\textbf{學習成效指標}：
+\begin{itemize}[leftmargin=2em]
+\item 能獨立設計有效的AI提示詞（提示自主設計比例達80\%以上）
+\item 能在無AI協助下完成基礎程式任務（獨立完成率達50\%以上）
+\item 能與同儕協作解決程式問題（同儕互評滿意度達4分/5分以上）
 \end{itemize}
 
 \textbf{週次規劃}：
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
+\footnotesize
 \caption{轉換期週次規劃}
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{|c|m{3cm}|m{4cm}|m{5cm}|}
+\label{tab:phase2_schedule}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|c|m{2.5cm}|m{3.2cm}|m{4.2cm}|}
 \hline
 \textbf{週次} & \textbf{主題} & \textbf{CS50P對應內容} & \textbf{課堂活動} \\
 \hline
@@ -140,7 +159,7 @@
 \hline
 9 & 檔案處理 & Week 6: File I/O & 檔案讀寫、CSV處理、資料存取 \\
 \hline
-10 & 問題解決實作(一) & 綜合應用 & 整合Week 0-6知識解決實際問題 \\
+10 & 問題解決實作(一) & 綜合應用 & 整合Week 0--6知識解決實際問題 \\
 \hline
 11 & 問題解決實作(二) & 綜合應用 & 小組協作解決複雜問題、期中專題規劃 \\
 \hline
@@ -149,7 +168,7 @@
 \end{tabular}
 \end{table}
 
-\paragraph{第三階段：自主期（13-18週）}
+\paragraph{第三階段：自主期（13--18週）}
 
 \textbf{教學目標}：
 \begin{itemize}[leftmargin=2em]
@@ -163,15 +182,25 @@
 \item AI角色轉變為「反思教練」（reflection coach）
 \item 不主動提供程式建議，僅回應學生明確且具體的提問
 \item 重點功能：引導學生回顧學習歷程、檢視學習策略、自我評估
+\item 實施「AI使用日誌」：學生需記錄每次AI使用的目的、過程與反思
+\end{itemize}
+
+\textbf{學習成效指標}：
+\begin{itemize}[leftmargin=2em]
+\item 能獨立完成中等複雜度的程式專題（專題評分達70分以上）
+\item 展現自我調節學習行為（SRL量表得分較前測提升10\%以上）
+\item 能批判性評估AI建議並做出合理判斷（反思報告品質達4分/5分以上）
 \end{itemize}
 
 \textbf{週次規劃}：
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
+\footnotesize
 \caption{自主期週次規劃}
-\renewcommand{\arraystretch}{1.25}
-\begin{tabular}{|c|m{3cm}|m{4cm}|m{5cm}|}
+\label{tab:phase3_schedule}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|c|m{2.5cm}|m{3.2cm}|m{4.2cm}|}
 \hline
 \textbf{週次} & \textbf{主題} & \textbf{學習重點} & \textbf{課堂活動} \\
 \hline
@@ -190,7 +219,7 @@
 \end{tabular}
 \end{table}
 
-\paragraph{每週課堂活動設計}
+\subsubsection{每週課堂活動設計}
 
 每週3小時課程採用「課前-課中-課後」三段式設計：
 
@@ -215,14 +244,65 @@
 \item 撰寫AI使用紀錄與學習反思（每4週繳交一次正式報告）
 \end{itemize}
 
-\paragraph{PBL任務設計}
+\subsubsection{形成性評量機制}
+
+本課程採用多元形成性評量，即時掌握學生學習狀況並提供回饋：
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{形成性評量機制設計}
+\label{tab:formative_assessment}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|m{2.2cm}|m{3.5cm}|m{2cm}|m{3.5cm}|}
+\hline
+\textbf{評量類型} & \textbf{評量內容} & \textbf{實施頻率} & \textbf{回饋方式} \\
+\hline
+課堂即時測驗 & 概念理解檢核、程式追蹤題 & 每週 & 即時回饋與講解 \\
+\hline
+程式實作評量 & PBL任務完成度、程式碼品質 & 每週 & 教師評語與同儕回饋 \\
+\hline
+AI互動紀錄分析 & 提示品質、求助策略、依賴程度 & 每2週 & 個別化學習建議 \\
+\hline
+學習反思報告 & 學習歷程回顧、策略調整規劃 & 每4週 & 書面回饋與面談 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{PBL任務設計}
 
 本課程PBL任務設計強調三大核心能力：「資料處理」、「資料視覺化」與「真實問題解決」。基礎練習題（如變數運算、迴圈練習、函式撰寫等）已融入每週課堂練習中，PBL任務則聚焦於具有挑戰性的應用問題。任務設計結合「Vibe Coding」理念——鼓勵學生以自然語言描述需求，透過與AI協作逐步實現程式功能，培養人機協作的程式開發能力。
+
+\paragraph{PBL任務評量規準}
+
+為確保評量一致性與透明度，本課程制定PBL任務評量規準如表\ref{tab:pbl_rubric}所示：
+
+\begin{table}[htbp]
+\centering
+\caption{PBL任務評量規準表}
+\label{tab:pbl_rubric}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{tabular}{|m{1.6cm}|m{2.8cm}|m{2.8cm}|m{2.8cm}|m{1.5cm}|}
+\hline
+\textbf{評量向度} & \textbf{優秀(5分)} & \textbf{良好(4分)} & \textbf{待加強(3分)} & \textbf{配分} \\
+\hline
+程式正確性 & 完全正確執行，處理各種邊界情況 & 大致正確，少數情況有誤 & 部分正確，需修正多處錯誤 & 30\% \\
+\hline
+程式碼品質 & 結構清晰、命名恰當、註解完整 & 結構尚可、命名合理、有基本註解 & 結構混亂、命名不當、缺乏註解 & 20\% \\
+\hline
+問題解決歷程 & 展現系統性思考與創意解法 & 能有條理地解決問題 & 解題過程較為零散 & 25\% \\
+\hline
+AI工具運用 & 策略性使用AI，展現批判思考 & 適當使用AI，能評估建議 & 過度依賴或未能有效運用AI & 15\% \\
+\hline
+反思與改進 & 深入反思學習歷程，提出具體改進 & 能反思學習，有改進意識 & 反思較為表面 & 10\% \\
+\hline
+\end{tabular}
+\end{table}
 
 \paragraph{核心技術能力培養}
 
 本課程PBL任務涵蓋以下技術能力：
-
 \begin{itemize}[leftmargin=2em]
 \item \textbf{資料處理}：CSV/JSON檔案讀取、資料清理、資料轉換、資料篩選與彙整
 \item \textbf{資料視覺化}：使用Matplotlib、Pandas繪製統計圖表（長條圖、折線圖、圓餅圖、散佈圖）
@@ -233,7 +313,6 @@
 \paragraph{臺灣開放資料應用}
 
 本課程大量採用「政府資料開放平臺」（data.gov.tw）之公開資料集，讓學生處理真實、在地化的資料，提升學習動機與實用性。使用之資料集包括：
-
 \begin{itemize}[leftmargin=2em]
 \item 中央氣象署開放資料：天氣預報、地震資訊、雨量觀測
 \item 交通部開放資料：YouBike即時資訊、公車動態、臺鐵時刻
@@ -246,43 +325,64 @@
 \paragraph{Vibe Coding教學策略}
 
 「Vibe Coding」強調以直覺、自然的方式與AI協作開發程式，本課程將此理念融入PBL任務：
-
 \begin{itemize}[leftmargin=2em]
 \item \textbf{引導期}：教師示範如何用自然語言描述需求，AI協助產生程式框架，學生理解並修改
 \item \textbf{轉換期}：學生自行撰寫需求描述，批判性評估AI建議，選擇性採納並改進
 \item \textbf{自主期}：學生主導開發流程，AI僅作為諮詢對象，培養獨立解決問題能力
 \end{itemize}
 
+\subsubsection{AI工具使用規範}
+
+為確保AI工具的教育價值，本課程制定明確的使用規範：
+
+\textbf{鼓勵的AI使用方式}：
+\begin{itemize}[leftmargin=2em]
+\item 請求概念解釋：「請解釋Python中for迴圈與while迴圈的差異」
+\item 尋求除錯提示：「我的程式出現IndexError，可能是什麼原因？」
+\item 請求虛擬碼引導：「如何設計一個計算平均值的演算法步驟？」
+\item 程式碼審查：「請檢視我的程式碼，指出可以改進的地方」
+\end{itemize}
+
+\textbf{避免的AI使用方式}：
+\begin{itemize}[leftmargin=2em]
+\item 直接要求完整程式碼：「幫我寫一個計算成績的程式」
+\item 複製貼上作業題目：「解這道程式設計題目」
+\item 未經思考的求助：在未嘗試理解問題前直接詢問AI
+\end{itemize}
+
 \paragraph{PBL任務一覽}
+
+各階段PBL任務設計如表\ref{tab:pbl_tasks}所示：
 
 \begin{table}[htbp]
 \centering
 \caption{PBL任務設計一覽表}
-\renewcommand{\arraystretch}{1.3}
-\small
-\begin{tabular}{|c|p{2.8cm}|p{5cm}|p{3.8cm}|}
+\label{tab:pbl_tasks}
+\renewcommand{\arraystretch}{1.1}
+\footnotesize
+\begin{tabular}{|c|p{2.2cm}|p{4.2cm}|p{3.2cm}|}
 \hline
 \textbf{週次} & \textbf{PBL任務名稱} & \textbf{任務說明} & \textbf{技術重點} \\
 \hline
 \multicolumn{4}{|c|}{\textbf{引導期：結構化AI協作任務}} \\
 \hline
-6 & 花蓮空氣品質監測儀表板 & 讀取環境部AQI資料，根據空氣品質等級提供健康建議，並繪製AQI趨勢圖 & 資料處理、條件判斷、Matplotlib折線圖 \\
+6 & 花蓮空氣品質監測儀表板 & 讀取環境部AQI資料，根據空氣品質等級提供健康建議，繪製AQI趨勢圖 & 資料處理、條件判斷、折線圖 \\
 \hline
 \multicolumn{4}{|c|}{\textbf{轉換期：半自主問題解決任務}} \\
 \hline
 9 & 花蓮YouBike使用分析系統 & 串接YouBike API，分析各站點使用率，繪製站點分布圖與使用統計 & API串接、資料清理、長條圖與圓餅圖 \\
 \hline
-10 & 臺灣人口結構視覺化分析 & 讀取內政部人口統計CSV，分析各縣市人口結構、年齡分布，產生多種統計圖表 & CSV處理、Pandas資料分析、多圖表繪製 \\
+10 & 臺灣人口結構視覺化分析 & 讀取內政部人口統計CSV，分析各縣市人口結構、年齡分布 & CSV處理、Pandas分析、多圖表繪製 \\
 \hline
-11--12 & 期中專題：在地生活資料應用 & 整合至少兩種開放資料，進行資料處理與視覺化分析，解決在地生活問題 & 多元資料整合、資料視覺化、小組協作 \\
+11--12 & 期中專題：在地生活資料應用 & 整合至少兩種開放資料，進行資料處理與視覺化分析 & 多元資料整合、視覺化、小組協作 \\
 \hline
 \multicolumn{4}{|c|}{\textbf{自主期：獨立專題開發任務}} \\
 \hline
-13 & 新聞/社群文字資料探勘 & 使用正規表示式擷取網路文字資料，進行詞頻統計與視覺化呈現 & 正規表示式、文字處理、詞頻統計圖 \\
+13 & 新聞/社群文字資料探勘 & 使用正規表示式擷取網路文字資料，進行詞頻統計與視覺化 & 正規表示式、文字處理、詞頻統計圖 \\
 \hline
-14 & 地震資料分析與視覺化系統 & 串接氣象署地震開放資料，分析地震分布規律，繪製地震規模統計圖 & API串接、OOP概念、散佈圖與統計分析 \\
+14 & 地震資料分析與視覺化系統 & 串接氣象署地震開放資料，分析地震分布規律 & API串接、OOP概念、散佈圖與統計 \\
 \hline
-15--18 & 期末專題：自選主題 & 自選臺灣開放資料主題，完成資料蒐集、處理、分析與視覺化呈現 & 完整資料分析流程、全方位知識整合 \\
+15--18 & 期末專題：自選主題 & 自選臺灣開放資料主題，完成資料蒐集、處理、分析與視覺化 & 完整資料分析流程、知識整合 \\
 \hline
 \end{tabular}
 \end{table}
@@ -290,11 +390,34 @@
 \paragraph{期末專題建議方向}
 
 學生可從以下方向選擇期末專題主題，皆須包含資料處理與視覺化分析：
-
 \begin{enumerate}
 \item \textbf{環境分析類}：空氣品質趨勢分析、氣溫變化視覺化、紫外線指數統計
 \item \textbf{交通分析類}：YouBike使用熱點分析、公車路線效率評估、交通流量視覺化
 \item \textbf{人口社會類}：縣市人口趨勢分析、年齡結構變化圖、人口密度地圖
 \item \textbf{健康飲食類}：食品營養成分比較、醫療資源分布分析、健康指標統計
 \item \textbf{觀光旅遊類}：花蓮景點分析、觀光人次趨勢、旅遊資源視覺化儀表板
+\end{enumerate}
+
+\subsubsection{學習支持與補救機制}
+
+為協助學習落後或遭遇困難的學生，本課程建立完善的學習支持機制：
+
+\begin{itemize}[leftmargin=2em]
+\item \textbf{預警系統}：透過每週形成性評量，及早識別學習困難學生
+\item \textbf{課後輔導}：每週提供1小時課後諮詢時段，提供個別化指導
+\item \textbf{學習夥伴制度}：配對程度較佳與需要協助的學生，促進同儕學習
+\item \textbf{補充教材}：提供基礎概念補充影片與額外練習題
+\item \textbf{彈性AI支持}：對學習落後學生，適度延長高支持階段時間
+\end{itemize}
+
+\subsubsection{教學設計特色總結}
+
+本課程教學設計之核心特色如下：
+
+\begin{enumerate}
+\item \textbf{理論基礎紮實}：融合SRL、認知學徒制與PBL三大理論框架
+\item \textbf{AI鷹架創新}：採用漸退式AI支持，兼顧學習效能與自主能力培養
+\item \textbf{在地化情境}：大量運用臺灣開放資料，提升學習動機與實用性
+\item \textbf{多元評量設計}：結合形成性與總結性評量，全面掌握學習成效
+\item \textbf{差異化教學}：提供彈性支持機制，照顧不同程度學生需求
 \end{enumerate}

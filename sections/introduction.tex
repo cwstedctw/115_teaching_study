@@ -2,11 +2,12 @@
 \section{計畫執行內容}
 
 \subsection{研究動機與背景}
+\label{sec:introduction}
 
 \subsubsection{教學問題脈絡}
 
 隨著人工智慧技術的普及，程式設計能力已成為21世紀公民的基本素養，
-運算思維(Computational Thinking)更被視為跨領域問題解決的核心能力\cite{wing2006computational}。
+運算思維（Computational Thinking）更被視為跨領域問題解決的核心能力\cite{wing2006computational}。
 本校通識教育中心開設之「初級程式設計－Python」課程，參考哈佛大學CS50P課程設計\cite{cs50p2024}，
 旨在培養非資訊科系學生的運算思維與程式設計能力。
 然而，教學實踐中面臨三大核心挑戰：
@@ -20,7 +21,7 @@
 \textbf{挑戰二：生成式AI帶來的認知卸載危機}
 
 研究顯示，OpenAI Codex等AI程式碼生成工具能以約78\%的準確率解決入門程式設計問題\cite{finnieansley2022robots}，
-而透過自然語言提示(prompt engineering)與ChatGPT、GitHub Copilot等工具互動，
+而透過自然語言提示（prompt engineering）與ChatGPT、GitHub Copilot等工具互動，
 學生可快速獲得程式碼建議\cite{denny2023conversing}，
 為程式設計教育帶來前所未有的機會與挑戰\cite{becker2023programming}。
 然而，學生過度依賴AI可能導致「認知卸載」（cognitive offloading），即將思考過程外包給AI，
@@ -57,16 +58,23 @@
 
 \subsubsection{改進方向與預期效益}
 
-有鑑於此，本研究提出「AI鷹架漸退式教學模式」(AI Scaffolding Fading Model)，
-結合自我調節學習理論(Self-Regulated Learning, SRL)\cite{zimmerman2002becoming,azevedo2019using}
-與問題導向學習(Problem-Based Learning， PBL)\cite{savery2006overview,hmelo2004problem}，
+有鑑於此，本研究提出「AI鷹架漸退式教學模式」（AI Scaffolding Fading Model），
+結合自我調節學習理論（Self-Regulated Learning, SRL）\cite{zimmerman2002becoming,azevedo2019using}
+與問題導向學習（Problem-Based Learning, PBL）\cite{savery2006overview,hmelo2004problem}，
 將AI從「答案提供者」轉變為「學習鷹架」。
-此教學設計參考認知學徒制(Cognitive Apprenticeship)中的鷹架理論\cite{collins1989cognitive,wood1976role}，
+此教學設計參考認知學徒制（Cognitive Apprenticeship）中的鷹架理論\cite{collins1989cognitive,wood1976role}，
 透過逐步減少外部支持，促進學生建立內在學習策略與自主學習能力\cite{jarvela2015enhancing}。
 
 \textbf{研究創新性}：有別於現有研究多聚焦於AI工具對學習成效的影響\cite{kazemitabaar2023studying,kazemitabaar2024codeaid}，
 本研究首次提出系統化的AI鷹架漸退機制，並結合學習歷程資料分析，
-探討如何透過教學設計引導學生從「AI依賴」轉向「AI協作」，最終達到「自主學習」。
+探討如何透過教學設計引導學生從「AI依賴」轉向「AI協作」，最終達到「自主學習」（如圖\ref{fig:framework}所示）。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\linewidth]{framework.png}
+  \caption{研究架構圖}
+  \label{fig:framework}
+\end{figure}
 
 \textbf{核心理念}：透過三階段AI鷹架漸退設計：
 \begin{enumerate}
@@ -83,38 +91,9 @@
 \item 探索AI工具在教育中的負責任使用方式\cite{dignum2019responsible}
 \end{itemize}
 
-\subsubsection{執行策略與立即行動}
-
-為確保教學設計可落地且可檢核，本研究提出可即刻採用的教學與評量步驟，著重於「先思考、後求助、再驗證」。
-
-\textbf{教學步驟（三階段）}：
-\begin{enumerate}
-	\item \textbf{引導期（1–6週）}：提供兩套固定提示模板（除錯/設計），要求學生在使用AI前先完成「問題描述→嘗試步驟→預期輸出」三步。
-	\item \textbf{轉換期（7–12週）}：降低提示結構，改用「標題+步驟」簡化模板，導入「錯誤類型卡」（語法、邏輯、邊界、資料結構）協助自我診斷；期中小專題。
-	\item \textbf{自主期（13–18週）}：學生自訂提示模板，於期末專題中附上「AI使用揭露」與「可重現性說明」（含測試證據）。
-\end{enumerate}
-
-\textbf{評量與紀錄}：
-\begin{itemize}
-	\item 前後測：第2週/第17週施測，題型涵蓋控制流程、資料結構、函式、測試。
-	\item 量表：第6/12/17週施測短版SRL與AI使用量表（每構面4–6題）。
-	\item 日誌：每週填寫AI使用日誌（3–5筆），欄位含問題類型、先嘗試步驟、提示摘要、採納/拒絕、修正重點。
-	\item 反思：每4週撰寫150–200字，採「一錯一改」架構。
-\end{itemize}
-
-\textbf{本週即可執行}：
-\begin{enumerate}
-	\item 發放「除錯/設計」提示模板，要求學生本週作業皆附三步驟思考紀錄。
-	\item 設定AI使用日誌表單，每位學生至少提交3筆互動紀錄。
-	\item 於下次上課進行5分鐘分享：挑選1個錯誤案例，簡述修正過程與學到的策略。
-\end{enumerate}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.85\linewidth]{framework.png}
-  \caption{研究架構圖}
-  \label{fig:framework}
-\end{figure}
+具體而言，本研究以「先思考、後求助、再驗證」為核心原則，
+透過結構化提示模板引導學生建立有效的AI協作學習策略，
+詳細教學設計與評量機制請見第\ref{sec:teaching_design}節。
 
 \subsubsection{研究問題}
 
