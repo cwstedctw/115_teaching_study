@@ -81,6 +81,9 @@
 % Default table spacing
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.25}
+% Custom column types for centered content (vertical + horizontal)
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}  % centered with fixed width
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}  % left-aligned with fixed width
 % Caption spacing for tables
 \RequirePackage{caption}
 \captionsetup[table]{skip=10pt}
