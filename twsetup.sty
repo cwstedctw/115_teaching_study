@@ -9,14 +9,12 @@
 % Improve CJK font behavior across platforms
 \xeCJKsetup{AutoFakeBold=true, AutoFakeSlant=true, CJKmath=true}
 \setmainfont{Times New Roman}
-% CJK font selection with macOS-friendly fallbacks
-\IfFontExistsTF{Noto Serif CJK TC}{\setCJKmainfont{Noto Serif CJK TC}}{%
-  \IfFontExistsTF{PingFang TC}{\setCJKmainfont{PingFang TC}}{%
-    \IfFontExistsTF{Songti TC}{\setCJKmainfont{Songti TC}}{%
-      \IfFontExistsTF{Microsoft JhengHei}{\setCJKmainfont{Microsoft JhengHei}}{%
-        \IfFontExistsTF{PMingLiU}{\setCJKmainfont{PMingLiU}}{%
-          \IfFontExistsTF{MingLiU}{\setCJKmainfont{MingLiU}}{\setCJKmainfont{Hiragino Mincho ProN}}%
-        }%
+% CJK font selection: 標楷體 (KaiTi/DFKai-SB) as required
+\IfFontExistsTF{DFKai-SB}{\setCJKmainfont{DFKai-SB}}{%
+  \IfFontExistsTF{KaiTi}{\setCJKmainfont{KaiTi}}{%
+    \IfFontExistsTF{BiauKai}{\setCJKmainfont{BiauKai}}{%
+      \IfFontExistsTF{標楷體}{\setCJKmainfont{標楷體}}{%
+        \setCJKmainfont{Kaiti TC}% macOS fallback
       }%
     }%
   }%
@@ -37,9 +35,9 @@
 \newcommand{\kai}[1]{{\CJKfamily{kai}#1}}
 
 % Layout & spacing
-\RequirePackage[margin=2.5cm]{geometry}
+\RequirePackage[margin=2cm]{geometry}
 \RequirePackage{setspace}
-\setstretch{1.5}  % 1.5 line spacing for better readability
+\singlespacing  % Single line spacing as required
 
 % Math
 \RequirePackage{amsmath, amsfonts, amssymb}
@@ -104,5 +102,11 @@
 }
 
 % Bibliography with biblatex (numeric, grouped citations e.g., [3-5])
-\RequirePackage[style=numeric-comp,sorting=none,backend=biber]{biblatex}
+\RequirePackage[style=numeric-comp,sorting=none,backend=biber,defernumbers=true]{biblatex}
 \addbibresource{references.bib}
+
+% Custom bibliography heading to match section format
+\defbibheading{bibliography}[\refname]{%
+  \section*{#1}%
+  \addcontentsline{toc}{section}{#1}%
+}
