@@ -1,0 +1,37 @@
+[中文摘要]
+
+本計畫針對非資工學生「程式設計與應用」課程，面對生成式AI造成的認知卸載與高挫折率，提出結合自我調節學習與PBL的「AI鷹架漸退式教學模式」，強調「先思考、後求助、再驗證」。
+課程18週分引導、轉換、自主三階段，逐步降低AI支持強度；搭配提示模板、錯誤類型卡、AI使用日誌與反思報告，要求學生記錄問題、嘗試步驟、驗證方式。
+研究採前後測對比與混合方法設計，樣本約50–60人，蒐集Python測驗成績、AI依賴與SRL量表（第6/12/17週）、AI互動紀錄、專題成品與焦點訪談，並以趨勢統計、paired t-test與主題分析交叉驗證。
+預期成果包含：提升程式能力、自我效能與及格率，降低AI過度依賴；產出18週教材與三階段提示範本庫；提供可複製的責信AI教學模式，供大學通識程式課程推廣。
+
+[英文摘要]
+
+This project addresses difficulty and AI overreliance in a Python course for non-CS students through an AI scaffolding fading model grounded in SRL and PBL, emphasizing “think first, then consult, then verify.”
+Across 18 weeks (guided → transition → autonomous), AI support is gradually reduced; students must log problem statements, self-attempt steps, prompts, and validation methods, aided by prompt templates, error-type cards, AI-use logs, and periodic reflections.
+With 50–60 learners, a mixed-methods pre–post design collects Python tests, AI dependence and SRL scales at weeks 6/12/17, AI interaction logs, project artifacts, and focus-group interviews; analyses include trend statistics, paired t-tests, and thematic analysis for triangulation.
+Expected outcomes: improved programming performance, self-efficacy, and pass rate; reduced AI dependence; deliverables of 18-week materials and a three-stage prompt library; and a replicable, responsible AI teaching model for wider adoption in general-education programming courses.
+
+[中文關鍵字]
+
+AI鷹架漸退、自我調節學習、問題導向學習、程式設計教學、生成式AI
+
+[英文關鍵字]
+
+AI scaffolding fading, self-regulated learning, problem-based learning, programming education, generative AI
+
+[教學方法摘要]
+
+本課程以PBL情境搭配三階段「AI鷹架漸退」進行：引導期提供結構化提示與除錯/設計雙模式，要求先思考後求助；轉換期部分撤除鷹架並推行「先嘗試15分鐘」與同儕協作；自主期將AI轉為反思教練，學生自訂提示並於專題中揭露AI使用與測試證據。
+
+SRL鷹架包含每週目標設定與自評、AI使用日誌（先嘗試步驟、提示摘要、驗證方式）、短版SRL量表回饋，強化自我監控與策略調整。
+
+每週維持「課前短影片＋預習測驗、課中問題導向實作與同儕協作、課後日誌與反思」的節奏，並以前後測、量表與互動紀錄追蹤成效；輔以錯誤類型卡、同儕互評、助教小組導引、單元測試/IO驗證，以及重現性與AI使用揭露要求。
+
+[學習成效評量工具]
+前後測：Python概念與實作測驗（第2、17週）。
+量表：AI依賴與SRL短版量表（第6、12、17週）。
+課堂與平台紀錄：AI使用日誌、互動/提交紀錄、單元測試結果。
+作品評量：期中/期末專題，含AI使用揭露與可重現性測試證據。
+質性資料：焦點訪談與學習反思日誌（每4週一次），主題分析比對量化結果。
+
